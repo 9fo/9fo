@@ -1,4 +1,3 @@
-- 👋 Hi, I’m @Mar0Coded
+- 👋 Hi, I’m @9fo
 - 👀 I’m interested in Java and Python NodeJS
 - 🌱 I’m currently learning Java
-- 📫 How to reach me, you can dm me on discord at mar0#9998
