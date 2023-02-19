@@ -10,7 +10,7 @@ class Client(9fo):
             codinglanguages = ["Python", "Go", "NodeJS"]
   
   	def hi(self):
-      	    api = requests.get("skidconfirmed.net", json={"user":user"}
+      	    api = requests.get("skidconfirmed.net", json={"user":user"}).json()
             if api['skid'] == True:
                 print("bad boy")
             else:
