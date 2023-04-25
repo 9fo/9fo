@@ -10,5 +10,5 @@ class Client(9fo):
             instaprojects = ["Instagram Account Generator", "Insta AIO"]
             codinglanguages = ["Python", "Go", "NodeJS"]
 	def business(self, businesses: List):
-		businesses.append("coding.rip")
+	    businesses.append("coding.rip")
 ```
