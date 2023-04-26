@@ -7,7 +7,7 @@ class Client(9fo):
 	    tiktokprojects = ["TikTok Claimer", "TikTok Checker", "TikTok Bruter", "Combo Checker"]
       	    discordprojects = ["Vanity Checker", "Vanity Sniper", "Discord Account Generator", "Discord Boost Bot"]
             youtubeprojects = ["YouTube Shorts Creator", "Comment Bot"]
-            instaprojects = ["Instagram Account Generator", "Insta AIO"]
+            instaprojects = ["Instagram Account Generator", "Insta AIO", "Instagram Auto Comment Bot"]
             codinglanguages = ["Python", "Go", "NodeJS"]
 	def business(self, businesses: List):
 	    businesses.append("coding.rip")
