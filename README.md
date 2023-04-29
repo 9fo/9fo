@@ -1,7 +1,4 @@
 ```python
-import requests
-import json
-
 class Client(9fo):
 	def __init__(self) -> None:
 	    tiktokprojects = ["TikTok Claimer", "TikTok Checker", "TikTok Bruter", "Combo Checker"]
