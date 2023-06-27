@@ -1,11 +1,15 @@
 ```python
+from lib import runLife
 class Client(9fo):
 	def __init__(self) -> None:
-	    tiktokprojects = ["TikTok Claimer", "TikTok Checker", "TikTok Bruter", "Combo Checker"]
-      	    discordprojects = ["Vanity Checker", "Vanity Sniper", "Discord Account Generator", "Discord Boost Bot"]
-            youtubeprojects = ["YouTube Shorts Creator", "Comment Bot"]
-            instaprojects = ["Instagram Account Generator", "Insta AIO", "Instagram Auto Comment Bot"]
-            codinglanguages = ["Python", "Go", "NodeJS", "V"]
-	def business(self, businesses: List):
-	    businesses.append("coding.rip")
+	    self.tiktokprojects = ["TikTok Claimer", "TikTok Checker", "TikTok Bruter", "Combo Checker"]
+      	    self.discordprojects = ["Vanity Checker", "Vanity Sniper", "Discord Account Generator", "Discord Boost Bot"]
+            self.youtubeprojects = ["YouTube Shorts Creator", "Comment Bot"]
+            self.instaprojects = ["Instagram Account Generator", "Insta AIO", "Instagram Auto Comment Bot"]
+            self.codinglanguages = ["Python", "Go", "NodeJS", "V"]
+            self.businesses = []
+	def addBusiness(self):
+	    self.businesses.append("coding.rip")
+	def startCoder(self, *args):
+             runLife.start(*args)
 ```
